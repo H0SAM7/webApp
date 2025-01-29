@@ -37,6 +37,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
       child: TextFormField(
+        
           onSaved: widget.onSaved,
           maxLines: widget.maxline,
           showCursor: true,
@@ -49,7 +50,9 @@ class _CustomTextFieldState extends State<CustomTextField> {
             return null;
           },
           onChanged: widget.onchage,
+          textAlign: TextAlign.end,
           style: TextStyle(
+            locale: Locale('ar'),
             color: !isDarkMode ? Colors.black : Colors.white,
             fontFamily: 'Inter',
           ),

@@ -8,7 +8,7 @@ abstract class AppStyles {
     return TextStyle(
     //  color: blueColor,
       fontSize: getResponsiveSize(context, fontSize: 18),
-   fontFamily: GoogleFonts.amiri().fontFamily,
+   //fontFamily: GoogleFonts.amiri().fontFamily,
       fontWeight: FontWeight.bold,
     );
   }
@@ -17,7 +17,7 @@ abstract class AppStyles {
     return TextStyle(
      // color: blueColor,
       fontSize: getResponsiveSize(context, fontSize: 16),
-      fontFamily:  GoogleFonts.amiri().fontFamily,
+     // fontFamily:  GoogleFonts.amiri().fontFamily,
       fontWeight: FontWeight.bold,
     );
   }
